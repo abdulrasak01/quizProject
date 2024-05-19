@@ -1,0 +1,70 @@
+{
+  "questions": [
+    {
+      "id": "abc9",
+      "questionText": "what was answer of 1+3?",
+      "answers": [
+        {
+          "ans1": "1",
+          "isCorrect": false
+        },
+        {
+          "ans2": "2",
+          "isCorrect": false
+        },
+        {
+          "ans3": "3",
+          "isCorrect": false
+        },
+        {
+          "ans4": "4",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "3185",
+      "questionText": "what was answer 1+6",
+      "answers": [
+        {
+          "ans1": "3",
+          "isCorrect": false
+        },
+        {
+          "ans2": "5",
+          "isCorrect": false
+        },
+        {
+          "ans3": "7",
+          "isCorrect": true
+        },
+        {
+          "ans4": "9",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "0ad9",
+      "questionText": "what was answer 1+8",
+      "answers": [
+        {
+          "ans1": "3",
+          "isCorrect": false
+        },
+        {
+          "ans2": "9",
+          "isCorrect": true
+        },
+        {
+          "ans3": "6",
+          "isCorrect": false
+        },
+        {
+          "ans4": "2",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

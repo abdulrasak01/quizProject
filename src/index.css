@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.optionDiv{
+@apply p-2 m-2 mx-auto
+}
+.optionInput{
+    @apply px-2 m-2 bg-transparent border border-white rounded-2xl mx-auto w-full
+}
