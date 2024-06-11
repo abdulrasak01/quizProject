@@ -1,11 +1,7 @@
 import React from "react";
-import { useContext } from "react";
-// import { AppContext } from "./App";
 import { Link } from "react-router-dom";
-import DataContext from "../context/DataContext";
 
-const Admin = () => {
-  const { navigateHome } = useContext(DataContext);
+const Admin = ({ navigateHome }) => {
   return (
     <div className="text-center mt-20 ">
       {/* <h1 className='text-3xl border border-black w-full mx-auto '>Admin Panal</h1> */}

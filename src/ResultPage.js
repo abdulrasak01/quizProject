@@ -1,9 +1,6 @@
 import React from "react";
-import { useContext } from "react";
-import { AppContext } from "./App";
 
-const ResultPage = () => {
-  const { questions, score } = useContext(AppContext);
+const ResultPage = ({ questions, score }) => {
   return (
     <div>
       <h1 className="text-3xl font-bold my-5">Result:</h1>

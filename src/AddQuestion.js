@@ -1,10 +1,7 @@
-import { useContext } from "react";
-// import { AppContext } from "./App";
-import DataContext from "../context/DataContext";
 
-const AddQuestion = () => {
-  const { input, handleInput, handleSubmit, navigateHome } =
-    useContext(DataContext);
+
+const AddQuestion = ({ input, handleInput, handleSubmit, navigateHome }) => {
+
   return (
     <div>
       <div>

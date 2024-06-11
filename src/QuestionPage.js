@@ -1,11 +1,7 @@
 import React from "react";
-import { useContext } from "react";
-// import { AppContext } from "./App";
-import DataContext from "../context/DataContext";
 
-const QuestionPage = () => {
-  const { questions, handleOptionClick, currentQuestion } =
-    useContext(DataContext);
+const QuestionPage = ({ questions, handleOptionClick, currentQuestion }) => {
+
   return (
     <div>
       {questions.length ? (
@@ -27,7 +23,7 @@ const QuestionPage = () => {
                     )
                   }
                   className="hover:bg-red-400  hover:text-white  my-4 ml-40  p-2 px-40"
-                >{`I.  ${questions[currentQuestion].answers[0].ans1}`}</button>
+                >{`A)  ${questions[currentQuestion].answers[0].ans1}`}</button>
                 <button
                   onClick={() =>
                     handleOptionClick(
@@ -35,7 +31,7 @@ const QuestionPage = () => {
                     )
                   }
                   className="hover:bg-red-400  hover:text-white  my-4 ml-40  p-2 px-40"
-                >{`II.  ${questions[currentQuestion].answers[1].ans2}`}</button>
+                >{`B)  ${questions[currentQuestion].answers[1].ans2}`}</button>
                 <button
                   onClick={() =>
                     handleOptionClick(
@@ -43,7 +39,7 @@ const QuestionPage = () => {
                     )
                   }
                   className="hover:bg-red-400  hover:text-white  my-4 ml-40  p-2 px-40"
-                >{`III.  ${questions[currentQuestion].answers[2].ans3}`}</button>
+                >{`C)  ${questions[currentQuestion].answers[2].ans3}`}</button>
                 <button
                   onClick={() =>
                     handleOptionClick(
@@ -51,7 +47,7 @@ const QuestionPage = () => {
                     )
                   }
                   className="hover:bg-red-400  hover:text-white  my-4 ml-40  p-2 px-40"
-                >{`IV.  ${questions[currentQuestion].answers[3].ans4}`}</button>
+                >{`D)  ${questions[currentQuestion].answers[3].ans4}`}</button>
               </div>
               {/* {questions[currentQuestion].answers.map((answers) => (
                   <div className="flex flex-wrap">
